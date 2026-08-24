@@ -7,7 +7,7 @@ public class Increasing_Triplet_Subsequence {
 
 	public static void main(String[] args) {
 
-		int[] arr = {1, 2, 3, 4, 5};
+		int[] arr = {1, 2, 0, -1, -99};
 		boolean res = increasingTriplet(arr);
 		System.out.println(res);
 	}
